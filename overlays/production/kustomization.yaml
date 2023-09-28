@@ -1,0 +1,9 @@
+kind: Kustomization
+
+bases:
+        - ../../base
+
+namePrefix: prod-
+
+resources:
+        - route.yaml
